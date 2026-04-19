@@ -18,18 +18,20 @@ jobs:
       - name: Main metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: dist/metrics.svg
+          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: anthhub
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
+          committer_branch: output
+          committer_message: "chore(metrics): update main card"
           plugins_errors_fatal: no
 
       - name: Habits plugin
         uses: lowlighter/metrics@latest
         with:
-          filename: dist/metrics.plugin.habits.svg
+          filename: metrics.plugin.habits.svg
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: anthhub
           base: ""
@@ -40,13 +42,6 @@ jobs:
           plugin_habits_from: 200
           plugin_habits_languages_limit: 8
           config_timezone: Asia/Shanghai
+          committer_branch: output
+          committer_message: "chore(metrics): update habits card"
           plugins_errors_fatal: no
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-          keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
