@@ -208,36 +208,29 @@ Agents self-dispatch to produce scripts, scenes, key frames.
 
 <br/>
 
-<!-- ============ 3D GALLERY ============ -->
+<!-- ============ CONTRIBUTION ART ============ -->
 
-## 🎲 &nbsp;3D Showcase
+## 🎲 &nbsp;Contribution art
 
-<sub>&nbsp;&nbsp;Four angles of the same year. Auto-rendered daily.</sub>
+<sub>&nbsp;&nbsp;Three genuinely different angles on the same year — cube / isometric calendar / classic snake.</sub>
 
 <br/>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/anthhub/anthhub/output/profile-night-rainbow.svg" alt="night-rainbow" width="49%" />
-<img src="https://raw.githubusercontent.com/anthhub/anthhub/output/profile-gitblock.svg" alt="gitblock" width="49%" />
+### Equirectangular cube · 3D bars
 
-<img src="https://raw.githubusercontent.com/anthhub/anthhub/output/profile-season-animate.svg" alt="season-animated" width="49%" />
-<img src="https://raw.githubusercontent.com/anthhub/anthhub/output/profile-green-animate.svg" alt="green-animated" width="49%" />
+<img src="https://raw.githubusercontent.com/anthhub/anthhub/output/profile-night-rainbow.svg" alt="3d-cube" width="96%" />
 
-</div>
+<br/><br/>
+
+### Isometric calendar · full year
+
+<img src="https://raw.githubusercontent.com/anthhub/anthhub/output/metrics.plugin.isocalendar.svg" alt="iso-calendar" width="96%" />
 
 <br/>
 
-<details>
-<summary>&nbsp;<b>more angles</b></summary>
-<br/>
-<div align="center">
-<img src="https://raw.githubusercontent.com/anthhub/anthhub/output/profile-night-view.svg" alt="night-view" width="49%" />
-<img src="https://raw.githubusercontent.com/anthhub/anthhub/output/profile-night-green.svg" alt="night-green" width="49%" />
-<img src="https://raw.githubusercontent.com/anthhub/anthhub/output/profile-season.svg" alt="season" width="49%" />
-<img src="https://raw.githubusercontent.com/anthhub/anthhub/output/profile-south-season-animate.svg" alt="south-season-animated" width="49%" />
 </div>
-</details>
 
 <br/>
 
