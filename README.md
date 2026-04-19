@@ -233,7 +233,7 @@ const me = {
 </h2>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/anthhub/anthhub/output/profile-3d-contrib/profile-night-rainbow.svg" alt="3d-contrib" width="95%" />
+  <img src="https://raw.githubusercontent.com/anthhub/anthhub/output/profile-night-rainbow.svg" alt="3d-contrib" width="95%" />
 </div>
 
 <div align="center">
